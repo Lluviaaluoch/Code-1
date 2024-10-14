@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="icon" href="images" type=image/x-icon>
+<link rel ="stylesheet" href="index2.html" type="text">
+</head>
+<body style="background-color: rgb(12, 0, 0);color: whitesmoke;" >
+  <header>
+  <h1>Hello World</h1> 
+
+  
+<nav aria aria-label="primary navigation">
+  
+  <ul>
+    <li>
+      <a href="#html">Learning HTML</a>
+    </li>
+    <li>
+      <a href="vacation">Planning a vacation</a>
+    </li>
+  </ul>
+</nav >
+
+  <ul>
+    <li>
+      <a href="#html">Learning HTML</a>
+    </li>
+    <li>
+      <a href="vacation">Contact Me</a>
+    </li>
+  </ul>
+
+  </header>
+  <main>
+    <article="html">
+  <h2>Iam ready to learn HTML</h2>
+  <p>This is my first webpage</p> 
+  <section>
+    <img src="my images/Europe.jpeg" alt="Europe in totallity" title="wow! Eurpe" width="500" height="400" loading="lazy">
+    <figure>
+      <figcaption>
+      europe huge get away
+    </figcaption>
+  </figure>
+  </section>
+  <h3> My daily schedule</h3>
+  <p>Let me tell you how to use html</p>     
+
+  <br>&nbsp;&nbsp;&nbsp;I learn more about web development
+  <br>&nbsp;&nbsp;&nbsp;Iplan out my schedule
+  <br>&nbsp;&nbsp;&nbsp;I use resources from <abbr title="Mozilla Developer Network">
+    <a href="https://developer.mozilla.org/"></a>MDN</abbr> 
+    </article>
+  </main>
+  
+
+<main>
+  <article id="vacation">
+  <h2>I am also planning a vacation</h2>
+  <p>I have been working hard <em>
+    and I really need a get away </em>.</p>
+  <p>I live in Kenya so I want to see snow</p> 
+
+<section>
+  <h3> Places I like to visit</h3>
+<p style="color: aqua;">I have heard good things about the <abbr title="United Kingdom">UK</abbr>  </p>
+
+
+<p>I have heard good things about going here:</p>
+<section>
+<figure>
+<img src="my images/uk as whole.jpeg" alt="wow Europe" title="london is great" width="400" height="300" loading="lazy">
+<figcaption>
+  London is awesome
+</figcaption>
+<p>
+  <code>&lt;h1&gt;Hello world!&lt;/h1&gt;</code>
+</p>
+</figure>
+</section>
+<address>
+    London City in London
+</address>
+</section>
+<section>
+<!--TODO: Add more places-->
+
+<section>
+<section>
+<h3>Places I want to avoid</h3>
+<p>Anywhere cold. <strong> No way! </strong></p>
+
+<aside>
+  <details>
+   
+    <summary>Guess the<mark>number of hours</mark> i code per day</summary>
+    <p>I start at <time datetime="08:00">8 am</time> and code for <time datetime="PT3H">3 hours</time>every morning</p>
+  </details>
+</aside>
+
+   
+  </article>
+
+
+  <hr>
+  <article id="Contact">
+    <h2>Contact me</h2>
+   <p> I would really like to hear from you</p>
+<form action="https://httpbin.org/get" method="get">
+  <fieldset>
+    <legend>Personal Info</legend>
+  <p>
+<label for="firstname">First Name:</label>
+<input type="text" name="firstname" id="firstname" placeholder="Lluvia"
+ autocomplete="on" required autofocus>
+</p>
+<p>
+<label for="lastname">Last Name:</label>
+<input type="text" name="lastname" id="lastname" placeholder="Aluoch"
+ autocomplete="on" required> 
+ </p>
+<p>
+<label for="password"> Password:</label>
+<input type="password" name="password" id="password" placeholder="your secret"
+  required>
+ </p>
+<p>
+<label for="Phone"> Phone:</label>
+<input type="tel" name="phone"
+ id="phone" placeholder="0717081749" pattern="[0-9]{2}[0-9]{4}[0-9]{4}"
+  required>
+ </p>
+<p>
+<label for="decade">Favourite Decade:</label>
+<input type="number" name="decade"
+ id="decade" min="1950" max="2020" step="10" value="1980">
+ </p>
+
+ <p>
+<label for="coffee">Favourite Coffee</label>
+<select name="coffee" id="coffee" multiple size="5">
+  <optgroup label="Coffees">
+  <option value="regular coffee">Regular Coffee</option>
+<option value="iced coffee">Iced Coffee</option>
+  </optgroup>
+  <optgroup label="Espresso Drinks">
+<option value="latte" selected> Latte</option>
+<option value="cappuccino">Cappuccino</option>
+<option value="cortado">Cortado</option>
+<option value=" mt Kenyan">Mt Kenya</option>
+</optgroup>
+<option value="other">Other</option>
+</select>
+ </p>
+ </fieldset>
+ <br>
+ <fieldset>
+  <legend>What is your favourite food</legend>
+  <p>
+   <input type="radio" name="food" id="chicken" value="chicken">
+   <label for="chicken">Chicken</label>
+  </p>
+  
+  <p>
+    <input type="radio" name="food" id="fish" value="fish">
+    <label for="fish">Fish</label>
+   </p>
+
+  <p>
+   <input type="radio" name="food" id="other" value="other">
+   <label for="other">Other</label>
+  </p>
+
+ </fieldset>
+ <br>
+ <fieldset>
+ <legend>Do you have pets</legend>
+ <p>
+ <input type="checkbox" name="pets" id="dog" value="dog">
+ <label for="dog">Dog</label>
+ 
+ <p>
+ <input type="checkbox" name="pets" id="cat" value="cat">
+ <label for="cat">Cat</label>
+ </p>
+ <p>
+ <input type="checkbox" name="pets" id="rabbit" value="rabbit">
+ <label for="rabbit">Rabbit</label>
+ </p>
+ <p>
+  <input type="checkbox" name="pets" id="other pets" value="other">
+  <label for="other">Other</label>
+ </p>
+ </fieldset>
+ <fieldset>
+  <legend>Send me a note</legend>
+  <label for="message">Your Message</label>
+  <textarea name="message" id="message" cols="30" rows="10" placeholder="type your message here"></textarea>
+ </fieldset>
+ <br>
+ 
+ <button type="submit">Submit</button>
+ <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Submit</button>
+ <button type="reset">Reset</button>
+
+</form>
+  </article>
+</main>
+
+<hr>
+&lt;&lt;&lt;&copy;Lluvia Aluoch &gt;&gt;&gt;
+
+<ol>
+  <li>I learn more about web development</li>
+  <li>&nbsp;&nbsp;&nbsp;I plan out my schedule</li>
+  <li>&nbsp;&nbsp;&nbsp;I use resources from <abbr title="Mozilla Developer Network">
+    <a href="https://developer.mozilla.org/"></a>MDN</abbr> </li>
+  
+</ol>
+</section>
+
+<aside>
+  <details>
+    <summary>Guess the number of hours i code per day</summary>
+    <p>Istart at 8 am and codefor 3 hrs every morning</p>
+  </details>
+</aside>
+   
+<table border="4">
+  
+  <caption>My Daily Schedule</caption>
+ <thead>
+  <tr>
+    <th>&nbsp;</th>
+    <th scope="col">
+      Time
+    </th>
+    <th scope="col">
+      Activity
+    </th>
+  </tr>
+</thead>
+  <tbody>
+  <tr>
+    <th scope="row">Morning</th>
+    <td>
+      <time datetime="08:00">8am</time>-<time 
+      datetime="11:00">11am</time>
+    </td>
+
+    <td>Write code</td>
+  </tr>
+
+  
+  <tr>
+    <th scope="row">Break</th>
+    <td>
+      <time datetime="11:00">11am</time>-<time 
+      datetime="12:00">12pm</time>
+    </td>
+    <td>Eat lunch</td>
+  </tr>
+
+  <tr>
+    <th scope="row">Afternoon</th>
+    <td>
+      <time datetime="12:00">12pm</time>-<time 
+      datetime="17:00">5pm</time>
+    </td>
+    <td>Study for other courses</td>
+  </tr>
+  <tr>
+   <th scope="row">Evening</th>
+ <td rowspan="2">All Other Times</td>
+ <td>Free Time</td>
+  </tr>
+  <tr>
+    <th scope="row">Night</th>
+    <td>Sleep</td>
+  </tr>
+</tbody>
+<tfoot>
+  <tr>
+    <td colspan="3">And that is what i do everyday</td>
+  </tr>
+</tfoot>
+</table>
+
+
+
+
+
+
+</body>
+
+</html> 
